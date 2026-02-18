@@ -1,0 +1,95 @@
+# ==========================================
+# macOS Specific
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Python Specific
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# dbt (data build tool) Specific
+# ==========================================
+target/
+dbt_packages/
+dbt_modules/
+logs/
+
+# ==========================================
+# AI / LLM / Data Science Specific
+# ==========================================
+# Large data files (แนะนำให้เก็บไว้ใน data/ และไม่เอาขึ้น Git)
+data/
+*.csv
+*.jsonl
+*.parquet
+*.pickle
+*.h5
+
+# Model weights and Large Binary Files
+models/*.bin
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.pkl
+*.ckpt
+
+# Vector DBs / Cache
+.chroma/
+.pinecone/
+.faiss/
+.cache/
+hub/
+
+# LangChain / LLM logs
+*.log
+chain_results/
+
+# ==========================================
+# IDE & Tools
+# ==========================================
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
